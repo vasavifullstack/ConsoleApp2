@@ -46,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="method_adv.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="2.method_adv.cs" />
+    <Compile Include="1.method_basic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
