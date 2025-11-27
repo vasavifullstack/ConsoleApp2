@@ -95,6 +95,16 @@ namespace Methods_Advanced_Container
             }
 
 
+            // Method 3: Take a class model as input and return an updated class model
+            Student updatedStudent = StudentOperations.UpdateStudent(singleStudent);
+
+            // Method 4: Take a list of class models as input and return an updated list of class models
+            var updatedStudetns = StudentOperations.UpdateStudents(studnetsList);
+            Console.WriteLine("List of Students:");
+            foreach (var student in updatedStudetns)
+            {
+                Console.WriteLine($"Single Student: {student.Name}, {student.Age}, {student.Subject}");
+            }
 
 
         }
