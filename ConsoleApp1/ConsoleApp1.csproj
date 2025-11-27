@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program</StartupObject>
+    <StartupObject>Programs</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="2.method_adv.cs" />
     <Compile Include="1.method_basic.cs" />
     <Compile Include="3.ref.cs" />
+    <Compile Include="4.out_method.cs" />
     <Compile Include="5.ref_out_tryparse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
