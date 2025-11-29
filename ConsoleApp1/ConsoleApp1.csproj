@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsyncronousCallContainer.Program</StartupObject>
+    <StartupObject>ASyncOtherExmapleContainer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,15 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10.async_param.cs" />
     <Compile Include="2.method_adv.cs" />
     <Compile Include="1.method_basic.cs" />
     <Compile Include="3.ref.cs" />
     <Compile Include="4.out_method.cs" />
     <Compile Include="5.ref_out_tryparse.cs" />
     <Compile Include="7.Async.cs" />
+    <Compile Include="9.Async_example.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="6.sync_call.cs" />
-    <Compile Include="Sync_adv.cs" />
+    <Compile Include="8.Sync_adv.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
