@@ -87,6 +87,7 @@ namespace SynchronousCallsContainer
 
             WorkItems.PrepareWordDocumentation();   // 2 secs
             WorkItems.PreparePPTsPresentation();    // 5 secs
+
             WorkItems.PrepareNotes();               // 4 secs
 
             // Record end time for sequential downloading
