@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyExtensions.Program</StartupObject>
+    <StartupObject>ExceptionHanlding.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="10.async_param.cs" />
     <Compile Include="13.extension_example2.cs" />
+    <Compile Include="14.Exception_handling.cs" />
     <Compile Include="2.method_adv.cs" />
     <Compile Include="1.method_basic.cs" />
     <Compile Include="3.ref.cs" />
